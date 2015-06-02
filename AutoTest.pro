@@ -20,3 +20,8 @@ HEADERS  += mainwindow.h \
     console.h
 
 FORMS    += mainwindow.ui
+
+OTHER_FILES +=
+
+RESOURCES += \
+    AutoTest.qrc
