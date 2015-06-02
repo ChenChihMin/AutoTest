@@ -83,5 +83,4 @@ void MainWindow::initActionConnections()
     connect(ui->actionConnect, SIGNAL(triggered()), this, SLOT(openSerialPort()));
     connect(ui->actionDisconnect, SIGNAL(triggered()), this, SLOT(closeSerialPort()));
     connect(ui->actionAbout, SIGNAL(triggered()), this, SLOT(about()));
-    //openSerialPort();
 }
